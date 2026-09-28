@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: sans-serif;
     background-color: #EEEEEE;
@@ -34,6 +40,10 @@ body{
     text-decoration: none;
     color: #000000;
     transition: color 0.2s ease;
+}
+
+.menu a:hover {
+    color: #777777;
 }
 /* Main konten */
 main{
@@ -159,6 +169,3 @@ main{
 .add-buttonCart:hover {
     background-color: #444444;
 }
-
-
-
