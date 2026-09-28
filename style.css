@@ -7,3 +7,22 @@
     align-items:center;
     box-shadow:0 0.5px 0.5px black;
 };
+
+.logo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.menu{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.875;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.2s easse;
+} 
