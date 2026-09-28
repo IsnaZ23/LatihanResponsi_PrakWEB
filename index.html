@@ -21,6 +21,37 @@
     </header>
 
     <!-- main Content -->
- 
+    <main class="main-container">
+        <div class="card" id="productCard">
+
+            <div class="image-container">
+                <img src="/assets/shoesimg.avif" alt="Sepatu_nike">
+            </div>
+            <!-- detailnya -->
+            <div class="product-details">
+                <div>
+                    <div class="category">RUNNING SHOES</div>
+                    <h1 class="p-title">Air Runner</h1>
+                    <p class="desc">Sepatu ringan dan nyaman untuk digunakan saat berolahraga maupun aktivitas sehari-hari.</p>
+                </div>
+                
+                <div class="price">Rp 899.000</div>
+                
+                <div class="color-selection">
+                    <span class="color-label">Pilih warna: </span>
+                    <div class="color-options">
+                        <button class="color-btn btn-black" onclick="changeBgColor('#DDDDDD')"></button>
+                        <button class="color-btn btn-blue" onclick="changeBgColor('#CFE2FF')"></button>
+                        <button class="color-btn btn-cream" onclick="changeBgColor('#F5E6CC')"></button>
+                    </div>
+                </div>
+                <button class="add-buttonCart">Add to Cart</button>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Js -->
+    <script src="button.js"></script>
 </body>
 </html>
